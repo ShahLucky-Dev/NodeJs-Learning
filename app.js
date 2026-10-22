@@ -7,3 +7,5 @@ let age = 20;
 
 console.log("name:", name);
 console.log(age);
+
+console.log(typeof name);
