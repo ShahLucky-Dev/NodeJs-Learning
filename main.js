@@ -4,8 +4,8 @@
 
 // console.log(result);
 
-import { add } from "./math.js";
+import { multiply } from "./math.js";
 
-const result = add(10, 20);
+const result = multiply(5, 4);
 
 console.log(result);
