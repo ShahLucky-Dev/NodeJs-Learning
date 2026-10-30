@@ -6,6 +6,6 @@
 
 import { multiply } from "./math.js";
 
-const result = multiply(5, 4);
+const result = multiply(5, 20);
 
 console.log(result);
