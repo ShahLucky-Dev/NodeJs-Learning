@@ -11,6 +11,7 @@
 // console.log(result);
 
 import { log } from "console";
+import { loadavg } from "os";
 import path from "path";
 
 const filePath = "C:/NodeJs/index.js";
@@ -19,4 +20,5 @@ console.log(path.basename(filePath));
 console.log(path.extname(filePath));
 console.log(path.dirname(filePath));
 
-console.log(path.join("folder", "images", "photo.png"));
+const result = path.join("folder", "images", "photo.png");
+console.log(result);
